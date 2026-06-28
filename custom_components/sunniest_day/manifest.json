@@ -1,12 +1,10 @@
 {
-  "domain": "sonnigster_tag",
-  "name": "Sonnigster Tag",
-  "codeowners": [],
+  "domain": "sunniest_day",
+  "name": "Sunniest Day",
+  "codeowners": ["@Maverick3008"],
   "config_flow": true,
-  "dependencies": ["weather"],
-  "documentation": "https://github.com/lars/sonnigster_tag",
-  "integration_type": "helper",
-  "iot_class": "calculated",
-  "requirements": [],
-  "version": "0.1.0"
+  "documentation": "https://github.com/Maverick3008/home-assistant-sunniest-day",
+  "issue_tracker": "https://github.com/Maverick3008/home-assistant-sunniest-day/issues",
+  "iot_class": "cloud_polling",
+  "version": "0.0.1"
 }
