@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from homeassistant.const import Platform
 
-DOMAIN = "sonnigster_tag"
+DOMAIN = "sunniest_day"
 PLATFORMS: list[Platform] = [Platform.SENSOR]
 
 CONF_WEATHER_ENTITY = "weather_entity"
